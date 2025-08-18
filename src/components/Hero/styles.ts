@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Container } from '../../style'
 
 export const FormHero = styled.form`
   height: 360px;
@@ -27,9 +26,12 @@ export const FormHero = styled.form`
     max-width: 100%;
   }
 `
-export const ContainerHero = styled(Container)`
+export const ContainerHero = styled.div`
+  width: 100%
+  padding: 0 16px;;
   color: #eee;
   position: relative;
+
 `
 
 export const HeroTitle = styled.h2`
